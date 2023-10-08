@@ -7,7 +7,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Rage is a Nigerian-based eSports team that participates in the Call of Duty (mobile) of PubG tournaments.
+  Rage is a Nigerian-based eSports team that participates in the Call of Duty Mobile of PubG tournaments.
 
 # Build settings
 
@@ -26,14 +26,15 @@ minima:
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   date_format: "%Y-%m-%d"
 
-  # Generate social links in footer.
-  #
-  # social_links:
-  #   - { platform: instagram,      user_url: "https://www.instagram.com/jekyll" }
-  #   - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
-  #   - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
-  #   - { platform: github,         user_url: "https://github.com/jekyll/minima" }
-  #   - { platform: facebook,       user_url: "https://www.facebook.com/jekyll" }
+# Generate social links in footer.
+#
+  social_links:
+    - { platform: instagram,      user_url: "https://www.instagram.com/ragegamingaf/" }
+    - { platform: youtube,        user_url: "https://www.youtube.com/@RAGEGAMINGAF" }
+    - { platform: twitter,        user_url: "https://twitter.com/jekyllrb" }
+    - { platform: github,         user_url: "https://github.com/therageteam" }
+    - { platform: facebook,       user_url: "https://www.facebook.com/groups/officialragegaming" }
+  #   - { platform: tiktok,         user_url: "https://www.tiktok.com/@ragegamingaf" }
   #   - { platform: devto,          user_url: "https://dev.to/jekyll" }
   #   - { platform: dribbble,       user_url: "https://dribbble.com/jekyll" }
   #   - { platform: flickr,         user_url: "https://www.flickr.com/photos/jekyll" }
@@ -49,7 +50,16 @@ minima:
 # order as they should show up.
 #
 header_pages:
-  - about.md
+  - _pages/about.md
+
+include:
+    - _pages
+
+exclude: 
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - README.md
 
 # Set to `true` to show excerpts on the homepage.
 #
