@@ -9,3 +9,33 @@ layout: home
 title: Welcome
 permalink: /
 ---
+
+## Carousel
+
+* Awards
+* Quotes
+* Shout outs
+* Schedule
+
+## Gameplay videos
+
+* Grid with filters: codm, pubg
+* View more link
+
+## Team
+
+* Players 
+* Management
+
+## Merchandize
+
+## Schedule
+
+Upcoming games
+
+## Become an Investor / Sponsor
+
+* Get a cut of our winnings
+* Let's advertize your brand
+
+## Footer
